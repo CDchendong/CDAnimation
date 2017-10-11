@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		F52488411F7E20650065AD80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52488401F7E20650065AD80 /* AppDelegate.m */; };
 		F52488441F7E20650065AD80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52488431F7E20650065AD80 /* ViewController.m */; };
-		F52488471F7E20650065AD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52488451F7E20650065AD80 /* Main.storyboard */; };
 		F52488491F7E20650065AD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52488481F7E20650065AD80 /* Assets.xcassets */; };
-		F524884C1F7E20650065AD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F524884A1F7E20650065AD80 /* LaunchScreen.storyboard */; };
 		F524884F1F7E20650065AD80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F524884E1F7E20650065AD80 /* main.m */; };
-		F52488571F7E20FC0065AD80 /* cd_cycleSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52488561F7E20FC0065AD80 /* cd_cycleSmall@2x.png */; };
+		F5483AD61F8CD59100DC9B49 /* CDPinBallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5483AD51F8CD59100DC9B49 /* CDPinBallVC.m */; };
+		F5DDF0381F8DEB370097026C /* CDRotateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF0371F8DEB370097026C /* CDRotateVC.m */; };
+		F5DDF03B1F8DEEF30097026C /* CDCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF03A1F8DEEF30097026C /* CDCycleVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,15 @@
 		F52488401F7E20650065AD80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F52488421F7E20650065AD80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F52488431F7E20650065AD80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F52488461F7E20650065AD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F52488481F7E20650065AD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F524884B1F7E20650065AD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F524884D1F7E20650065AD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F524884E1F7E20650065AD80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F52488561F7E20FC0065AD80 /* cd_cycleSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cd_cycleSmall@2x.png"; sourceTree = "<group>"; };
+		F5483AD41F8CD59100DC9B49 /* CDPinBallVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDPinBallVC.h; sourceTree = "<group>"; };
+		F5483AD51F8CD59100DC9B49 /* CDPinBallVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDPinBallVC.m; sourceTree = "<group>"; };
+		F5DDF0361F8DEB370097026C /* CDRotateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDRotateVC.h; sourceTree = "<group>"; };
+		F5DDF0371F8DEB370097026C /* CDRotateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDRotateVC.m; sourceTree = "<group>"; };
+		F5DDF0391F8DEEF30097026C /* CDCycleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDCycleVC.h; sourceTree = "<group>"; };
+		F5DDF03A1F8DEEF30097026C /* CDCycleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDCycleVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +63,45 @@
 		F524883E1F7E20650065AD80 /* CDAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				F52488561F7E20FC0065AD80 /* cd_cycleSmall@2x.png */,
 				F524883F1F7E20650065AD80 /* AppDelegate.h */,
 				F52488401F7E20650065AD80 /* AppDelegate.m */,
 				F52488421F7E20650065AD80 /* ViewController.h */,
 				F52488431F7E20650065AD80 /* ViewController.m */,
-				F52488451F7E20650065AD80 /* Main.storyboard */,
+				F5483AD31F8CD56F00DC9B49 /* OneView */,
+				F5483AD11F8CD56F00DC9B49 /* ThreeView */,
+				F5483AD21F8CD56F00DC9B49 /* TwoView */,
 				F52488481F7E20650065AD80 /* Assets.xcassets */,
-				F524884A1F7E20650065AD80 /* LaunchScreen.storyboard */,
 				F524884D1F7E20650065AD80 /* Info.plist */,
 				F524884E1F7E20650065AD80 /* main.m */,
 			);
 			path = CDAnimation;
+			sourceTree = "<group>";
+		};
+		F5483AD11F8CD56F00DC9B49 /* ThreeView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThreeView;
+			sourceTree = "<group>";
+		};
+		F5483AD21F8CD56F00DC9B49 /* TwoView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TwoView;
+			sourceTree = "<group>";
+		};
+		F5483AD31F8CD56F00DC9B49 /* OneView */ = {
+			isa = PBXGroup;
+			children = (
+				F5483AD41F8CD59100DC9B49 /* CDPinBallVC.h */,
+				F5483AD51F8CD59100DC9B49 /* CDPinBallVC.m */,
+				F5DDF0361F8DEB370097026C /* CDRotateVC.h */,
+				F5DDF0371F8DEB370097026C /* CDRotateVC.m */,
+				F5DDF0391F8DEEF30097026C /* CDCycleVC.h */,
+				F5DDF03A1F8DEEF30097026C /* CDCycleVC.m */,
+			);
+			path = OneView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F52488571F7E20FC0065AD80 /* cd_cycleSmall@2x.png in Resources */,
-				F524884C1F7E20650065AD80 /* LaunchScreen.storyboard in Resources */,
 				F52488491F7E20650065AD80 /* Assets.xcassets in Resources */,
-				F52488471F7E20650065AD80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,30 +175,14 @@
 			files = (
 				F52488441F7E20650065AD80 /* ViewController.m in Sources */,
 				F524884F1F7E20650065AD80 /* main.m in Sources */,
+				F5DDF03B1F8DEEF30097026C /* CDCycleVC.m in Sources */,
+				F5483AD61F8CD59100DC9B49 /* CDPinBallVC.m in Sources */,
+				F5DDF0381F8DEB370097026C /* CDRotateVC.m in Sources */,
 				F52488411F7E20650065AD80 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F52488451F7E20650065AD80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F52488461F7E20650065AD80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F524884A1F7E20650065AD80 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F524884B1F7E20650065AD80 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F52488501F7E20650065AD80 /* Debug */ = {
@@ -283,11 +294,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAFW2QL2VC;
 				INFOPLIST_FILE = CDAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.CDAnimation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,11 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAFW2QL2VC;
 				INFOPLIST_FILE = CDAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.CDAnimation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
